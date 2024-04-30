@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y gpg pass apt-transport-https ca-certificates curl
+apt-get install -y git gpg pass apt-transport-https ca-certificates curl
 
 gpg --quick-generate-key hansw
 pass init hansw
